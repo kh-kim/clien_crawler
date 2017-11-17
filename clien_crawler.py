@@ -7,6 +7,7 @@ import sys
 listUrl = "https://www.clien.net/service/board/%s?&po=%d"
 articleUrl = "https://www.clien.net/service/board/%s/%s"
 categories = ["cm_iphonien", "cm_vcoin", "cm_car", "cm_bike", "cm_mac", "cm_ku", "cm_andro", "cm_lego", "cm_gym", "cm_werule", "cm_nas", "cm_havehome", "cm_baby", "cm_coffee", "cm_cat", "cm_soccer", ]
+categories.reverse()
 
 INTERVAL = 1.5
 
